@@ -22,7 +22,7 @@ li{
 a{
 	text-decoration-line:none;
 }
-video{
+video,audio{
 	background-color: rgb(255, 255, 255); 
 	padding:20px; 
 	border-radius:10px;
