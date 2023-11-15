@@ -4,6 +4,7 @@ body{
 	background-color: rgb(204, 204, 204)
 }
 h1,h2{
+	font-weight: bolder;
 	text-align:center;
 }
 ul{
@@ -22,8 +23,13 @@ li{
 a{
 	text-decoration-line:none;
 }
-video,audio{
+.player_one{
+	border:2px solid black;
 	background-color: rgb(255, 255, 255); 
-	padding:20px; 
+	padding:10px; 
 	border-radius:10px;
+	margin:30px
+}
+video,audio{
+	width:auto;
 }
